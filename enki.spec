@@ -25,6 +25,7 @@ Patch0:		enki-desktop.patch
 
 BuildRequires:	edje
 BuildRequires:	embryo
+BuildRequires:	evas
 BuildRequires:	desktop-file-utils
 BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(eio)
