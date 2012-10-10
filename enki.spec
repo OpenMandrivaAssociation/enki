@@ -11,7 +11,7 @@
 #cd ..; \
 #tar -Jcf enki-$PKG_VERSION.tar.xz enki/ --exclude .svn --exclude .*ignore
 
-%define svnrev  66410
+%define svnrev  74197
 
 Summary:	Enki Photo Manager for E17
 Name:		enki
@@ -48,14 +48,13 @@ NOCONFIGURE=yes ./autogen.sh
 %make
 
 %install
-rm -fr %{buildroot}
-%makeinstall
+%makeinstall_std
 
 #menu
 desktop-file-install --vendor="" \
   --remove-category="Application" \
   --add-category="X-MandrivaLinux-Multimedia-Graphics" \
-  --dir $RPM_BUILD_ROOT%{_datadir}/applications $RPM_BUILD_ROOT%{_datadir}/applications/*.desktop
+  --dir %{buildroot}%{_datadir}/applications $RPM_BUILD_ROOT%{_datadir}/applications/*.desktop
 
 %files
 %doc AUTHORS COPYING INSTALL NEWS README
@@ -64,4 +63,3 @@ desktop-file-install --vendor="" \
 %{_datadir}/enki/themes/*.edj
 %{_datadir}/applications/enki.desktop
 %{_datadir}/pixmaps/enki.png
-
