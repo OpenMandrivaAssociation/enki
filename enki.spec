@@ -31,6 +31,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig(eio)
 BuildRequires:	pkgconfig(enlil)
 BuildRequires:	pkgconfig(elementary)
+BuildRequires:	pkgconfig(eweather)
 
 Requires:	enlil
 
