@@ -1,0 +1,21 @@
+Index: enki/enki.desktop
+===================================================================
+--- enki/enki.desktop	(revision 53377)
++++ enki/enki.desktop	(working copy)
+@@ -41,7 +41,6 @@
+ Comment[sk]=Správa vášho fotoalbumu
+ Comment[ru]=Управление ваши фотоальбомы
+ Comment[ro]=Administraţi-vă albume foto
+-Comment[pt]=Fa�a a gest�o dos seus �lbuns de fotos
+ Comment[pl]=Zarządzanie albumy fotograficzne
+ Comment[no]=Manage your fotoalbum
+ Comment[nl]=Beheer uw fotoalbums
+@@ -65,7 +64,7 @@
+ Comment[bg]=Управление на вашата фотоалбуми
+ Comment[ar]=إدارة ألبومات الصور
+ Exec=enki
+-Icon=enki.png
++Icon=enki
+ Type=Application
+ Terminal=false
+ Encoding=UTF-8
