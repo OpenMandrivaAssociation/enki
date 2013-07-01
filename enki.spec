@@ -13,7 +13,7 @@
 
 %define svnrev  74197
 
-Summary:	Enki Photo Manager for E17
+Summary:	Photo Manager for E17
 Name:		enki
 Version:	0.6.0
 Release:	0.%{svnrev}.1
