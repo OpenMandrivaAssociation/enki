@@ -41,7 +41,7 @@ list of albums and photos.
 
 %prep
 %setup -qn %{name}
-%apply_patches
+%autopatch -p1
 
 %build
 NOCONFIGURE=yes ./autogen.sh
