@@ -19,7 +19,7 @@ Version:	0.6.0
 Release:	0.%{svnrev}.1
 License:	GPLv2
 Group:		Graphical desktop/Enlightenment
-URL:		http://www.enlightenment.org/
+URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 Patch0:		enki-desktop.patch
 
