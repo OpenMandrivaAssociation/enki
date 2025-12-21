@@ -23,6 +23,11 @@ URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.%{svnrev}.tar.xz
 Patch0:		enki-desktop.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	edje
 BuildRequires:	embryo
 BuildRequires:	evas
